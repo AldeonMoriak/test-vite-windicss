@@ -8,14 +8,14 @@
   integrity sha512-np/lG3uARFybkoHokJUmf1QfEvRVCPbmQeUQpKow5cQ3xWrV9i3rUHodKDJPQfTVX61qKi+UdYk8kik84n7XOw==
 
 "@babel/parser@^7.12.0":
-  version "7.12.16"
-  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.12.16.tgz#cc31257419d2c3189d394081635703f549fc1ed4"
-  integrity sha512-c/+u9cqV6F0+4Hpq01jnJO+GLp2DdT63ppz9Xa+6cHaajM9VFzK/iDXiKK65YtpeVwu+ctfS6iqlMqRgQRzeCw==
+  version "7.12.17"
+  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.12.17.tgz#bc85d2d47db38094e5bb268fc761716e7d693848"
+  integrity sha512-r1yKkiUTYMQ8LiEI0UcQx5ETw5dpTLn9wijn9hk6KkTtOK95FndDN10M+8/s6k/Ymlbivw0Av9q4SlgF80PtHg==
 
 "@babel/types@^7.12.0":
-  version "7.12.13"
-  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.12.13.tgz#8be1aa8f2c876da11a9cf650c0ecf656913ad611"
-  integrity sha512-oKrdZTld2im1z8bDwTOQvUbxKwE+854zc16qWZQlcTqMN00pWxHQ4ZeOq0yDMnisOpRykH2/5Qqcrk/OlbAjiQ==
+  version "7.12.17"
+  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.12.17.tgz#9d711eb807e0934c90b8b1ca0eb1f7230d150963"
+  integrity sha512-tNMDjcv/4DIcHxErTgwB9q2ZcYyN0sUfgGKUK/mm1FJK7Wz+KstoEekxrl/tBiNDgLK1HGi+sppj1An/1DR4fQ==
   dependencies:
     "@babel/helper-validator-identifier" "^7.12.11"
     lodash "^4.17.19"
@@ -125,6 +125,15 @@
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.0.5.tgz#c131d88bd6713cc4d93b3bb1372edb1983225ff0"
   integrity sha512-gYsNoGkWejBxNO6SNRjOh/xKeZ0H0V+TFzaPzODfBjkAIb0aQgBuixC1brandC/CDJy1wYPwSoYrXpvul7m6yw==
 
+"@windicss/plugin-utils@workspace:*":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-0.3.10.tgz#e454751659eb6110d0778c1905f148e946d5d104"
+  integrity sha512-LOImvgONg5+57FVcKEGc5yS7/miwTQhpQgennaV2JKF4l1n8BLGDbdpObOmJAGrm34MDzyyCTiPrHGtD5mxszQ==
+  dependencies:
+    fast-glob "^3.2.5"
+    micromatch "^4.0.2"
+    windicss "^2.1.12"
+
 ansi-styles@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-3.2.1.tgz#41fbb20243e50b12be0f04b8dedbf07520ce841d"
@@ -198,9 +207,9 @@ emojis-list@^3.0.0:
   integrity sha512-/kyM18EfinwXZbno9FyUGeFh87KC8HRQBQGildHZbEuRyWFOmv1U10o9BBp8XVZDVNNuQKyIGIu5ZYAAXJ0V2Q==
 
 esbuild@^0.8.34:
-  version "0.8.46"
-  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.8.46.tgz#8fc7230ce3019b12e2553399f0c03875a729c26b"
-  integrity sha512-xck9sXNCNmjDHCCfxTCyhKTiFuEBweh+IDAhMLOJI990v1Fzii6MyIkT1LbkvjgoVgPX2SK1kpi5eZVGNrl8yg==
+  version "0.8.48"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.8.48.tgz#a57e4dde84ec56da1c6ecaefee97e9da6c5b00b5"
+  integrity sha512-lrH8lA8wWQ6Lpe1z6C7ZZaFSmRsUlcQAqe16nf7ITySQ7MV4+vI7qAqQlT/u+c3+9AL3VXmT4MXTxV2e63pO4A==
 
 escape-string-regexp@^1.0.5:
   version "1.0.5"
@@ -564,18 +573,18 @@ util-deprecate@^1.0.2:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
-vite-plugin-windicss@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/vite-plugin-windicss/-/vite-plugin-windicss-0.3.0.tgz#15e026e3a78d6f0ae3b85c760c38889181f6186f"
-  integrity sha512-hfWWABAoh5E1iOMAG+L3bP/xj7KfmviHwpSVBuhddEFCDIZ9aY0lMpMAbcqXRMLY5N1lHKDHKqI2xv/mZi25NA==
+vite-plugin-windicss@^0.3.10:
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/vite-plugin-windicss/-/vite-plugin-windicss-0.3.10.tgz#7ad7102db24a41c021747894a20664f9540ef877"
+  integrity sha512-+C2LfPZCCTWHTiW73pIuSptWgqv+5j8Cb6czW6V3DFWLO50t4S47TGslyldr/SxhVyrRDzpnHhHLHqPdbWfe6A==
   dependencies:
-    fast-glob "^3.2.5"
-    windicss "^2.1.11"
+    "@windicss/plugin-utils" "workspace:*"
+    windicss "^2.1.12"
 
 vite@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-2.0.0.tgz#156f35eadaa7947629aa8a24eb23129b07116ee3"
-  integrity sha512-rNli5g0DaQ6+btlRqkmaR06neWaJGApmt40gocqrYDNi2XoEXYQgKiHSWzMeUgc1Cdva2HduqazaE+RaKjBpdQ==
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-2.0.1.tgz#348fc5c0de510aa90bd01ecf87df210ce741b38e"
+  integrity sha512-x7ZfikjNs+6n4cdvwb9L5r5xBCdjmtmHFHaI4JVR3nAkJbMCK/dynfDWky8/NseZ9Ncz1jVxTQ/Bcf+n1ps1Ww==
   dependencies:
     esbuild "^0.8.34"
     postcss "^8.2.1"
@@ -593,10 +602,10 @@ vue@^3.0.5:
     "@vue/runtime-dom" "3.0.5"
     "@vue/shared" "3.0.5"
 
-windicss@^2.1.11:
-  version "2.1.11"
-  resolved "https://registry.yarnpkg.com/windicss/-/windicss-2.1.11.tgz#35dc9d683488dcfacf94331967b59765a505f18b"
-  integrity sha512-79mPoUmvamwdJb+MJ/ug+XILxFzrTNCXo/HmacUn3V9sRQ6w5lA9KkpTrG70N7Oab0hbIFaq+X3Yva+QLSV0Pw==
+windicss@^2.1.12:
+  version "2.1.12"
+  resolved "https://registry.yarnpkg.com/windicss/-/windicss-2.1.12.tgz#840b963f03af7a3e31b989d2b51de52dcd57a37a"
+  integrity sha512-VC057iG65zlvdqUI+1ynzOuKikalvYg6XqPGbG17HEAfwQ0sg1dACTk2plEp1QAEQNtKU3BnLnueWa4oKlltEQ==
 
 yallist@^3.0.2:
   version "3.1.1"
